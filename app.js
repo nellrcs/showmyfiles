@@ -94,7 +94,7 @@ app.get('/getfile', function(req, res){
 });
 
 server.listen(port);
-console.log('\n\nShowMyFiles rorando na porta: ' + port);
+console.log('\n\nShowMyFiles rodando na porta: ' + port);
 console.log('\nIP para conexão direta:');
 //Pega ip da maquina
 var ifaces = os.networkInterfaces();
